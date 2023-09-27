@@ -36,8 +36,9 @@ img{
     list-style: none;
     border: 10px solid rgb(226, 135, 157);
     background-color: rgb(166, 179, 206);
-    display: flex;
-    align-items: center;
+}
+.info1 p{
+    padding-top: 70px;
 }
 .info2{
     text-align: center;
