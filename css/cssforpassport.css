@@ -1,16 +1,29 @@
 body{
     background-color:rgb(202, 228, 235); 
-    margin: 0%; 
+    margin: 0; 
+    padding: 0;
     color:rgb(27, 9, 40);
 }
 .headline{
     text-align: center;
     background-color: rgb(77, 77, 229);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin: 0;
 }
-main {
+.headline h1{
+    margin: 0;
+}
+.headline h2{
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: space-between;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+}
+.inmain{
+    width: 100%;
 }
 img{
     float: left;
@@ -21,10 +34,10 @@ img{
 .info1{
     text-align: center;
     list-style: none;
-    padding-top: 15%;
     border: 10px solid rgb(226, 135, 157);
     background-color: rgb(166, 179, 206);
-  
+    display: flex;
+    align-items: center;
 }
 .info2{
     text-align: center;
@@ -35,7 +48,6 @@ video{
     padding-top: 5%;
     height: 500px;
     width: 500px;
-    padding-left: 70%;
 }
 .blank1{
     text-align: center;
@@ -45,4 +57,8 @@ video{
     padding-top: 0%;
     border: 5px solid rgb(167, 105, 105);
     background-color: rgb(193, 195, 201);
+}
+.prcvideo{
+    display: flex;
+    justify-content: flex-end;
 }
